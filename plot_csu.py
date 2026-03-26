@@ -4,7 +4,7 @@ import plotly.express as px
 # načítanie CSV
 df = pd.read_csv("csu_data.csv", sep=";")
 
-# print(df.head())
+#print(df.head())
 
 # filter
 df = df[
